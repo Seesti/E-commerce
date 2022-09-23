@@ -142,6 +142,12 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* HIGHLIGHTS */
 
@@ -223,6 +229,7 @@ button:active {
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -267,4 +274,22 @@ button:active {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+
+/* Explore */
+
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+
+/*  FOOTER  */
+
+
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
 }
