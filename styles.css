@@ -374,6 +374,7 @@ footer {
 
 .footer__logo {
     display: flex;
+    align-items: flex-start;
 }
 
 .footer__logo--img {
@@ -416,7 +417,7 @@ footer {
 }
 
 
-/* small phones, large phones */
+/* SMALL PHONES, LARGE PHONES */
 
 
 
